@@ -1,0 +1,122 @@
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 16px 0;
+}
+
+
+/* Cards */
+
+.dashboard-card {
+    border: none;
+    border-radius: 14px;
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-4px);
+}
+
+
+.dashboard-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+}
+
+
+/* Main cards */
+
+.card {
+    border: none;
+    border-radius: 14px;
+}
+
+
+/* Table */
+
+.table th {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #6c757d;
+}
+
+.table td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+/* Buttons */
+
+.btn {
+    border-radius: 8px;
+}
+
+
+/* Employee avatar */
+
+.employee-avatar {
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #e7efff;
+    color: #0d6efd;
+
+    border-radius: 50%;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+/* Modal */
+
+.modal-content {
+    border: none;
+    border-radius: 16px;
+}
+
+
+/* Input */
+
+.form-control,
+.form-select {
+
+    border-radius: 8px;
+
+    padding: 10px 12px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .dashboard-card {
+        margin-bottom: 10px;
+    }
+
+}
